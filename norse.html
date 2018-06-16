@@ -61,8 +61,16 @@
       </div>
     </div>
   </div>
-
-  <script>alert('Script Tags Work')</script>
+  <div class="container">
+    <h1 id="time"></h1>
+    <button onclick="showDate()">Show date</button>
+  </div>
+  <script>
+    function showDate(){
+      var time=document.getElementByID('time');
+      time.innerHTML=Date(); 
+    }
+  </script>
 
 
 

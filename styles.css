@@ -1,5 +1,11 @@
-html { background: #fff; }
+html { background: #000; }
 body { background: transparent; }
 .banner10 { background:url(../norse/Norse.jpg) no-repeat top; background-size: cover; }
 .banner10 h2 { font-size: 5em; color: #DDD; text-align: center; padding-top: 20%; }
 .banner10 h3 { font-size: 3em; color: #FF0; text-align: center; padding-bottom: 20%; }
+@media (max-width:767px){
+  .banner10 h2{  font-size: 3em; } 
+  .banner10 h3{ font-size: 1em; }}
+@media (min-width:768px) and (max-width:1199px){
+  .banner10 h2{ font-size: 4em;} 
+  .banner10 h3{ font-size: 2em;}} 

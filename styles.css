@@ -1,0 +1,4 @@
+html { background: #fff; }
+body { background: transparent; }
+.banner10 { background:url(../norse/Norse.jpg) no-repeat top; background-size: cover; }
+.banner10 h2 { font-size: 5em; color: #DDD; text-align: center; padding-top: 20%; }
